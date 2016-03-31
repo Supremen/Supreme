@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\发布\Supreme</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/html/Index.html">
+      <publishTime>03/20/2016 18:31:41</publishTime>
+    </File>
+    <File Include="Admin/html/template/HomeHeader.html">
+      <publishTime>03/20/2016 18:21:32</publishTime>
+    </File>
+    <File Include="Admin/js/app.js">
+      <publishTime>03/20/2016 15:43:05</publishTime>
+    </File>
+    <File Include="Admin/js/controllers/index/indexController.js">
+      <publishTime>03/20/2016 18:31:57</publishTime>
+    </File>
+    <File Include="Admin/js/controllers/login/loginController.js">
+      <publishTime>03/20/2016 19:09:52</publishTime>
+    </File>
+    <File Include="Admin/js/filters.js">
+      <publishTime>03/13/2016 17:32:13</publishTime>
+    </File>
+    <File Include="adminlogin.aspx">
+      <publishTime>03/06/2016 18:12:15</publishTime>
+    </File>
+    <File Include="adminlogin.html">
+      <publishTime>03/20/2016 18:11:40</publishTime>
+    </File>
+    <File Include="bin/BLLEngine.dll">
+      <publishTime>03/22/2016 00:57:28</publishTime>
+    </File>
+    <File Include="bin/BLLJIMP.dll">
+      <publishTime>03/22/2016 00:57:29</publishTime>
+    </File>
+    <File Include="bin/Common.dll">
+      <publishTime>03/22/2016 00:57:28</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/28/2015 22:06:25</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>12/28/2015 22:06:25</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>12/28/2015 22:06:25</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>12/28/2015 22:06:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>12/28/2015 22:06:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/Web.dll">
+      <publishTime>03/22/2016 00:57:29</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>12/28/2015 22:06:26</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>12/28/2015 22:06:26</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>12/28/2015 22:06:26</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Webpages.resources.dll">
+      <publishTime>12/28/2015 22:06:24</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/11/2016 00:48:26</publishTime>
+    </File>
+    <File Include="Default.html">
+      <publishTime>01/11/2016 00:46:17</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/18/2016 00:26:33</publishTime>
+    </File>
+    <File Include="Handler/BaseHandAdminNeedLogin.ashx">
+      <publishTime>01/18/2016 00:48:50</publishTime>
+    </File>
+    <File Include="Handler/BaseHandAdminNoLogin.ashx">
+      <publishTime>01/18/2016 00:33:22</publishTime>
+    </File>
+    <File Include="Handler/BaseHandNeedLogin.ashx">
+      <publishTime>01/18/2016 00:48:38</publishTime>
+    </File>
+    <File Include="Handler/BaseHandNoLogin.ashx">
+      <publishTime>01/18/2016 00:31:28</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>01/18/2016 01:10:12</publishTime>
+    </File>
+    <File Include="Index.html">
+      <publishTime>03/20/2016 18:07:21</publishTime>
+    </File>
+    <File Include="Lib/angular/angular-1.3.0.js">
+      <publishTime>01/24/2016 00:08:04</publishTime>
+    </File>
+    <File Include="Lib/AngularJs/angular-1.3.0.js">
+      <publishTime>01/24/2016 00:08:04</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap-theme.css">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap-theme.min.css.map">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap.css">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap.css.map">
+      <publishTime>01/23/2016 19:41:56</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap.min.css">
+      <publishTime>01/23/2016 19:41:56</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/css/bootstrap.min.css.map">
+      <publishTime>01/23/2016 19:41:56</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/js/bootstrap.js">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/js/bootstrap.min.js">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="Lib/Bootstrap/js/npm.js">
+      <publishTime>01/23/2016 19:41:55</publishTime>
+    </File>
+    <File Include="main.html">
+      <publishTime>03/06/2016 21:47:03</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/28/2015 22:06:26</publishTime>
+    </File>
+    <File Include="Script/jquery-1.8.2.min.js">
+      <publishTime>12/28/2015 22:25:45</publishTime>
+    </File>
+    <File Include="Scripts/app.js">
+      <publishTime>03/06/2016 21:47:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/12/2016 21:08:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

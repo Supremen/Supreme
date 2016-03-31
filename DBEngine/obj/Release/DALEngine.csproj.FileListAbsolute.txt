@@ -1,0 +1,5 @@
+D:\alone\DBEngine\bin\Release\DALEngine.dll
+D:\alone\DBEngine\bin\Release\DALEngine.pdb
+D:\alone\DBEngine\obj\Release\DALEngine.dll
+D:\alone\DBEngine\obj\Release\DALEngine.pdb
+D:\alone\DBEngine\obj\Release\DALEngine.csprojResolveAssemblyReference.cache

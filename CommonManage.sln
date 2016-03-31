@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonManage.App", "CommonManage.App", "{E9ED9BD0-E6C7-4A7B-B168-99754AC9DB01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonManage.Library", "CommonManage.Library", "{4441C80E-4C77-45E0-A804-62F99A88642E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonManage.Services", "CommonManage.Services", "{83D79B16-B74E-4026-AD6D-798FA27AC639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{A3999633-8803-4584-9866-7A917383B579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLJIMP", "BLLJIMP\BLLJIMP.csproj", "{BE10F164-0C7D-442F-93E2-6F3BB552705D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLEngine", "BLLEngine\BLLEngine.csproj", "{2C9A6892-5BA2-446D-A5ED-AC1391E83534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALEngine", "DBEngine\DALEngine.csproj", "{F1D6D79E-0226-4874-A274-987CC6FFC579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{CF949798-8796-4F0B-9A66-0A5580649828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3999633-8803-4584-9866-7A917383B579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3999633-8803-4584-9866-7A917383B579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3999633-8803-4584-9866-7A917383B579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3999633-8803-4584-9866-7A917383B579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE10F164-0C7D-442F-93E2-6F3BB552705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE10F164-0C7D-442F-93E2-6F3BB552705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE10F164-0C7D-442F-93E2-6F3BB552705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE10F164-0C7D-442F-93E2-6F3BB552705D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9A6892-5BA2-446D-A5ED-AC1391E83534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9A6892-5BA2-446D-A5ED-AC1391E83534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9A6892-5BA2-446D-A5ED-AC1391E83534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9A6892-5BA2-446D-A5ED-AC1391E83534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D6D79E-0226-4874-A274-987CC6FFC579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D6D79E-0226-4874-A274-987CC6FFC579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D6D79E-0226-4874-A274-987CC6FFC579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D6D79E-0226-4874-A274-987CC6FFC579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF949798-8796-4F0B-9A66-0A5580649828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF949798-8796-4F0B-9A66-0A5580649828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF949798-8796-4F0B-9A66-0A5580649828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF949798-8796-4F0B-9A66-0A5580649828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3999633-8803-4584-9866-7A917383B579} = {E9ED9BD0-E6C7-4A7B-B168-99754AC9DB01}
+		{2C9A6892-5BA2-446D-A5ED-AC1391E83534} = {4441C80E-4C77-45E0-A804-62F99A88642E}
+		{F1D6D79E-0226-4874-A274-987CC6FFC579} = {4441C80E-4C77-45E0-A804-62F99A88642E}
+		{CF949798-8796-4F0B-9A66-0A5580649828} = {4441C80E-4C77-45E0-A804-62F99A88642E}
+		{BE10F164-0C7D-442F-93E2-6F3BB552705D} = {83D79B16-B74E-4026-AD6D-798FA27AC639}
+	EndGlobalSection
+EndGlobal

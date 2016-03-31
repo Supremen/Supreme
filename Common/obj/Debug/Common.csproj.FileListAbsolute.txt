@@ -1,0 +1,10 @@
+D:\Super\Common\bin\Debug\Common.dll
+D:\Super\Common\bin\Debug\Common.pdb
+D:\Super\Common\obj\Debug\Common.dll
+D:\Super\Common\obj\Debug\Common.pdb
+D:\Super\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Supreme\Common\bin\Debug\Common.dll
+D:\Supreme\Common\bin\Debug\Common.pdb
+D:\Supreme\Common\obj\Debug\Common.dll
+D:\Supreme\Common\obj\Debug\Common.pdb
+D:\Supreme\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
