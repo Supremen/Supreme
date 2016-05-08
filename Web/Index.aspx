@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp" lang="zh-cn">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="Lib/jquery/jquery-2.1.1.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="Lib/angular-1.3.0.14/angular-ui-route/angular-ui-router.js"></script>
+    <script src="Scripts/Common.js"></script>
+    <script src="Admin/js/app.js"></script>
+    <script src="Admin/js/services/commonService.js"></script>
+    <script src="Admin/js/services/loginService.js"></script>
+    <script src="Admin/js/controllers/loginController.js"></script>
+    <script src="Admin/js/controllers/homeController.js"></script>
+    <script src="Lib/layer/layer-2.2.js"></script>
+    <link href="Admin/css/base.css" rel="stylesheet" />
+    <link href="Admin/css/supre.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div ui-view></div>
+    </form>
+</body>
+</html>

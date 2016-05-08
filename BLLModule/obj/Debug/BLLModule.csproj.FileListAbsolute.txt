@@ -1,0 +1,11 @@
+D:\Supreme\BLLModule\bin\Debug\BLLModule.dll
+D:\Supreme\BLLModule\bin\Debug\BLLModule.pdb
+D:\Supreme\BLLModule\bin\Debug\BLLEngine.dll
+D:\Supreme\BLLModule\bin\Debug\BLLJIMP.dll
+D:\Supreme\BLLModule\bin\Debug\DALEngine.dll
+D:\Supreme\BLLModule\bin\Debug\BLLEngine.pdb
+D:\Supreme\BLLModule\bin\Debug\BLLJIMP.pdb
+D:\Supreme\BLLModule\bin\Debug\DALEngine.pdb
+D:\Supreme\BLLModule\obj\Debug\BLLModule.csprojResolveAssemblyReference.cache
+D:\Supreme\BLLModule\obj\Debug\BLLModule.dll
+D:\Supreme\BLLModule\obj\Debug\BLLModule.pdb

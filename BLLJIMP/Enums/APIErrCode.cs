@@ -11,7 +11,6 @@ namespace LinKin.BLLJIMP.Enums
     /// </summary>
     public enum APIErrCode
     {
-
         /// <summary>
         /// 用户未登录
         /// </summary>
@@ -24,6 +23,14 @@ namespace LinKin.BLLJIMP.Enums
         /// 异常错误
         /// </summary>
         Exception=10012,
+        /// <summary>
+        /// 对象不存在
+        /// </summary>
+        ObjectNotExist=10013,
+        /// <summary>
+        /// 操作失败
+        /// </summary>
+        Operation=10014
 
         
 

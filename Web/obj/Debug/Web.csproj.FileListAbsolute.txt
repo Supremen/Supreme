@@ -199,3 +199,9 @@ D:\Supreme\Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
 D:\Supreme\Web\obj\Debug\Web.dll
 D:\Supreme\Web\obj\Debug\Web.pdb
 D:\Supreme\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+D:\Supreme\Web\bin\DALEngine.dll
+D:\Supreme\Web\bin\DALEngine.pdb
+D:\Supreme\Web\bin\BLLModule.dll
+D:\Supreme\Web\bin\BLLModule.pdb
+D:\Supreme\Web\bin\BLLPermission.dll
+D:\Supreme\Web\bin\BLLPermission.pdb

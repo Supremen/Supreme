@@ -40,8 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DALBase.cs" />
+    <Compile Include="DALTranction.cs" />
     <Compile Include="DBConstant.cs" />
     <Compile Include="DBHelper.cs" />
+    <Compile Include="MetaBase.cs" />
+    <Compile Include="MetaTable.cs" />
+    <Compile Include="MetaTables.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -19,5 +19,16 @@ namespace LinKin.Common
             JavaScriptSerializer js = new JavaScriptSerializer();
             return js.Serialize(obj);
         }
+
+        /// <summary>
+        /// 将json数据反序列化成对象
+        /// </summary>
+        /// <param name="json"></param>
+        /// <returns></returns>
+        public static T JsonToModel<T>(string json)
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            return js.Deserialize<T>(json);
+        }
     }
 }

@@ -16,4 +16,6 @@ D:\Supreme\BLLEngine\bin\Debug\BLLEngine.dll
 D:\Supreme\BLLEngine\bin\Debug\BLLEngine.pdb
 D:\Supreme\BLLEngine\obj\Debug\BLLEngine.dll
 D:\Supreme\BLLEngine\obj\Debug\BLLEngine.pdb
+D:\Supreme\BLLEngine\bin\Debug\DALEngine.dll
+D:\Supreme\BLLEngine\bin\Debug\DALEngine.pdb
 D:\Supreme\BLLEngine\obj\Debug\BLLEngine.csprojResolveAssemblyReference.cache

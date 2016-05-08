@@ -1,4 +1,5 @@
 ﻿using LinKin.BLLEngine;
+using LinKin.BLLJIMP.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,14 @@ namespace LinKin.BLLJIMP
     /// </summary>
     public class BLLUserInfo:BLL
     {
-        
+        /// <summary>
+        /// 根据用户id获取用户信息
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        public UserInfo GetUserInfoById(string userId)
+        {
+            return Get<UserInfo>(string.Format("  UserId='{0}' ",userId));
+        }
     }
 }

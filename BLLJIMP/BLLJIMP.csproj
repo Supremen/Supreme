@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,7 +44,7 @@
     <Compile Include="BLLUserFollow.cs" />
     <Compile Include="BLLUserInfo.cs" />
     <Compile Include="Enums\APIErrCode.cs" />
-    <Compile Include="ModelGen\MenuInfo.cs" />
+    <Compile Include="Enums\TransacType.cs" />
     <Compile Include="ModelGen\UserFollow.cs" />
     <Compile Include="ModelGen\UserInfo.cs" />
     <Compile Include="ModelGen\WebsiteDomainInfo.cs" />

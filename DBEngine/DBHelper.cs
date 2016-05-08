@@ -190,6 +190,64 @@ namespace LinKin.DALEngine
             }
         }
         /// <summary>
+        /// 执行SQL语句，返回影响的记录数
+        /// </summary>
+        /// <param name="SQLString">SQL语句</param>
+        /// <returns>影响的记录数</returns>
+        public static int ExecuteSql(string SQLString, params SqlParameter[] cmdParms)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand())
+                    {
+                        try
+                        {
+                            cmd.CommandTimeout = 1000000;
+                            PrepareCommand(cmd, connection, null, SQLString, cmdParms);
+                            int rows = cmd.ExecuteNonQuery();
+                            cmd.Parameters.Clear();
+                            return rows;
+                        }
+                        catch (System.Data.SqlClient.SqlException e)
+                        {
+                            throw e;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public static int ExecuteSql(string SQLString,SqlTransaction trans, params SqlParameter[] cmdParms)
+        {
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand())
+                    {
+                        try
+                        {
+                            cmd.CommandTimeout = 1000000;
+                            PrepareCommand(cmd, trans.Connection, null, SQLString, cmdParms);
+                            int rows = cmd.ExecuteNonQuery();
+                            cmd.Parameters.Clear();
+                            return rows;
+                        }
+                        catch (System.Data.SqlClient.SqlException e)
+                        {
+                            throw e;
+                        }
+                    }
+                }
+
+        } 
+        /// <summary>
         /// 执行SQL语句,返回受影响的行数
         /// </summary>
         /// <param name="SQLString"></param>

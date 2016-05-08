@@ -26,3 +26,5 @@ D:\Supreme\BLLJIMP\bin\Debug\BLLEngine.pdb
 D:\Supreme\BLLJIMP\obj\Debug\BLLJIMP.csprojResolveAssemblyReference.cache
 D:\Supreme\BLLJIMP\obj\Debug\BLLJIMP.dll
 D:\Supreme\BLLJIMP\obj\Debug\BLLJIMP.pdb
+D:\Supreme\BLLJIMP\bin\Debug\DALEngine.dll
+D:\Supreme\BLLJIMP\bin\Debug\DALEngine.pdb

@@ -1,0 +1,11 @@
+D:\Supreme\BLLPermission\bin\Debug\BLLPermission.dll
+D:\Supreme\BLLPermission\bin\Debug\BLLPermission.pdb
+D:\Supreme\BLLPermission\bin\Debug\BLLEngine.dll
+D:\Supreme\BLLPermission\bin\Debug\BLLJIMP.dll
+D:\Supreme\BLLPermission\bin\Debug\DALEngine.dll
+D:\Supreme\BLLPermission\bin\Debug\BLLEngine.pdb
+D:\Supreme\BLLPermission\bin\Debug\BLLJIMP.pdb
+D:\Supreme\BLLPermission\bin\Debug\DALEngine.pdb
+D:\Supreme\BLLPermission\obj\Debug\BLLPermission.csprojResolveAssemblyReference.cache
+D:\Supreme\BLLPermission\obj\Debug\BLLPermission.dll
+D:\Supreme\BLLPermission\obj\Debug\BLLPermission.pdb

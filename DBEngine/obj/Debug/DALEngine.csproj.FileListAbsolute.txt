@@ -15,6 +15,6 @@ F:\Supreme\DBEngine\obj\Debug\DALEngine.dll
 F:\Supreme\DBEngine\obj\Debug\DALEngine.pdb
 D:\Supreme\DBEngine\bin\Debug\DALEngine.dll
 D:\Supreme\DBEngine\bin\Debug\DALEngine.pdb
-D:\Supreme\DBEngine\obj\Debug\DALEngine.csprojResolveAssemblyReference.cache
 D:\Supreme\DBEngine\obj\Debug\DALEngine.dll
 D:\Supreme\DBEngine\obj\Debug\DALEngine.pdb
+D:\Supreme\DBEngine\obj\Debug\DALEngine.csprojResolveAssemblyReference.cache

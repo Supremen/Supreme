@@ -2,7 +2,21 @@
 
 <!--模板--后台主界面---2016-3-20-->
 
-<div ng-controller="homeController">
+ <div class="container bw">
+        <div class="row">
 
+            <div class="col-md-2">
+                <div ui-view="homemenu">
+                    菜单加载中...
+                </div>
+            </div>
+
+            <div class="col-md-10">
+                <div ui-view="homegrid">
+                    列表加载中...
+                </div>
+            </div>
+
+        </div>
 </div>
 

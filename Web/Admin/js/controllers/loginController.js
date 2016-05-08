@@ -1,23 +1,23 @@
 ﻿
 
-var adminloginController = angular.module('adminloginController', []);
+/*
+    LoginCtrl .
+*/
 
-adminloginController.controller('loginController', ['$scope', function ($scope) {
+var adminloginController = angular.module('adminloginCtrl', ['adminloginService']);
+
+adminloginController.controller('loginCtrl', ['$rootScope', '$scope', 'loginService', function ($rootScope, $scope, loginService) {
     console.log('loginController');
 
     $scope.SignIn = function () {
-        //loginService.AdminLogin(
-        //    user.username,
-        //    user.pwd,
-        //    function (data) {
-        //        if (data) {
-        //            location.href = "#/home";
-        //        }
-        //    });
-
-
-        //location.href = "#/home";
-
+        loginService.AdminLogin(
+            $scope.user,
+            function (data) {
+                if (data.status) {
+                   location.href = "#/home";
+                } else {
+                    Alert(data.msg,2);
+                }
+            });
     }
-
 }]);

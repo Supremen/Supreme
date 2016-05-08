@@ -40,9 +40,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLLBase.cs" />
+    <Compile Include="BLLTransaction.cs" />
     <Compile Include="ModelBase.cs" />
     <Compile Include="ModelTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBEngine\DALEngine.csproj">
+      <Project>{f1d6d79e-0226-4874-a274-987cc6ffc579}</Project>
+      <Name>DALEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

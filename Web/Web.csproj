@@ -90,7 +90,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="adminlogin.html" />
+    <Content Include="Admin\css\base.css" />
+    <Content Include="Admin\css\home.css" />
+    <Content Include="Admin\css\supre.css" />
+    <Content Include="Admin\html\home\homegrid.html" />
+    <Content Include="Admin\html\home\homemenu.html" />
+    <Content Include="Admin\html\login\adminlogin.html" />
     <Content Include="Admin\html\home.html" />
     <Content Include="Admin\js\controllers\homeController.js" />
     <Content Include="Admin\js\controllers\loginController.js" />
@@ -98,14 +103,33 @@
     <Content Include="Admin\js\services\commonService.js" />
     <Content Include="Admin\js\services\homeService.js" />
     <Content Include="Admin\js\services\loginService.js" />
+    <Content Include="Error\DomainNoReg.htm" />
     <Content Include="Global.asax" />
+    <Content Include="Index.aspx" />
+    <Content Include="Lib\angular-1.3.0.14\angular-animate.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-animate.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-cookies.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-cookies.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-csp.css" />
+    <Content Include="Lib\angular-1.3.0.14\angular-loader.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-loader.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-messages.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-messages.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-mocks.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-resource.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-resource.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-route.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-route.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-sanitize.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-sanitize.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-scenario.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-touch.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-touch.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular-ui-route\angular-ui-router.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular.js" />
+    <Content Include="Lib\angular-1.3.0.14\angular.min.js" />
+    <Content Include="Lib\angular-1.3.0.14\version.txt" />
     <Content Include="Index.html" />
-    <Content Include="Lib\angular\angular-cookies\angular-cookies.js" />
-    <Content Include="Lib\angular\angular-route\angular-route.js" />
-    <Content Include="Lib\angular\angular-route\angular-route.min.js" />
-    <Content Include="Lib\angular\angular\angular-csp.css" />
-    <Content Include="Lib\angular\angular\angular.js" />
-    <Content Include="Lib\angular\angular\angular.min.js" />
     <Content Include="Lib\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Lib\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Lib\bootstrap\css\bootstrap.css" />
@@ -115,16 +139,39 @@
     <Content Include="Lib\bootstrap\js\bootstrap.min.js" />
     <Content Include="Lib\bootstrap\js\npm.js" />
     <Content Include="Admin\js\app.js" />
+    <Content Include="Lib\jquery\jquery-2.1.1.min.js" />
+    <Content Include="Lib\layer\extend\layer.ext.js" />
+    <Content Include="Lib\layer\layer-2.2.js" />
+    <Content Include="Lib\layer\skin\default\icon-ext.png" />
+    <Content Include="Lib\layer\skin\default\icon.png" />
+    <Content Include="Lib\layer\skin\default\loading-0.gif" />
+    <Content Include="Lib\layer\skin\default\loading-1.gif" />
+    <Content Include="Lib\layer\skin\default\loading-2.gif" />
+    <Content Include="Lib\layer\skin\layer.css" />
+    <Content Include="Lib\layer\skin\layer.ext.css" />
+    <Content Include="Scripts\Common.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\handler\BaseHandlerNeedLogin.ashx.cs">
+      <DependentUpon>BaseHandlerNeedLogin.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\handler\NoLoginHandler.ashx.cs">
+      <DependentUpon>NoLoginHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\handler\power\Menu.ashx.cs">
+      <DependentUpon>Menu.ashx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Comm\BaseResponse.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\API\Admin\Login\adminlogin.ashx.cs">
+      <DependentUpon>adminlogin.ashx</DependentUpon>
     </Compile>
     <Compile Include="Handler\BaseHandAdminNeedLogin.ashx.cs">
       <DependentUpon>BaseHandAdminNeedLogin.ashx</DependentUpon>
@@ -137,6 +184,13 @@
     </Compile>
     <Compile Include="Handler\BaseHandNoLogin.ashx.cs">
       <DependentUpon>BaseHandNoLogin.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -156,12 +210,21 @@
     <Content Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Lib\angular\angular-route\.bower.json" />
-    <Content Include="Lib\angular\angular-route\angular-route.min.js.map" />
-    <Content Include="Lib\angular\angular-route\bower.json" />
-    <Content Include="Lib\angular\angular\.bower.json" />
-    <Content Include="Lib\angular\angular\angular.min.js.map" />
-    <Content Include="Lib\angular\angular\bower.json" />
+    <Content Include="Handler\API\Admin\Login\adminlogin.ashx" />
+    <Content Include="Lib\angular-1.3.0.14\angular-animate.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular-cookies.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular-loader.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular-messages.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular-resource.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular-route.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular-sanitize.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular-touch.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\angular.min.js.map" />
+    <Content Include="Lib\angular-1.3.0.14\errors.json" />
+    <Content Include="Lib\angular-1.3.0.14\version.json" />
+    <Content Include="Admin\handler\NoLoginHandler.ashx" />
+    <Content Include="Admin\handler\BaseHandlerNeedLogin.ashx" />
+    <Content Include="Admin\handler\power\Menu.ashx" />
     <None Include="Properties\PublishProfiles\LinKinDev.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -171,18 +234,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\css\" />
+    <Folder Include="Admin\handler\administrator\" />
     <Folder Include="Admin\html\administrator\" />
-    <Folder Include="Admin\html\template\" />
     <Folder Include="Admin\images\" />
     <Folder Include="App\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Error\" />
     <Folder Include="FileUpload\" />
-    <Folder Include="Handler\API\Admin\" />
     <Folder Include="Img\" />
     <Folder Include="Master\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLLEngine\BLLEngine.csproj">
@@ -193,9 +252,21 @@
       <Project>{be10f164-0c7d-442f-93e2-6f3bb552705d}</Project>
       <Name>BLLJIMP</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BLLModule\BLLModule.csproj">
+      <Project>{af49a46c-4e07-4ac0-b975-8cd06267c2ea}</Project>
+      <Name>BLLModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLLPermission\BLLPermission.csproj">
+      <Project>{f8d80a7b-e779-4189-b781-9aeec4ea426f}</Project>
+      <Name>BLLPermission</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{cf949798-8796-4f0b-9a66-0a5580649828}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBEngine\DALEngine.csproj">
+      <Project>{f1d6d79e-0226-4874-a274-987cc6ffc579}</Project>
+      <Name>DALEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
